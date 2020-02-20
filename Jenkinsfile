@@ -8,7 +8,6 @@ pipeline {
 		}
 		stage('Run'){
 			steps{
-			sh "cd JenkinsJavaPipeline"
 			sh "sudo javac HelloWorld.java"
 			sh "sudo java HelloWorld"}
 		}
