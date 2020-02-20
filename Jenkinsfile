@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Clone repo'){
 			steps {
-			 sh "git clone https://github.com/ShrushtiK/JenkinsJavaPipeline"
+			 sh "echo 'CLONING OVER'"
 			}		
 		}
 		stage('Run'){
